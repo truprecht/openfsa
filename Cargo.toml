@@ -1,0 +1,14 @@
+[package]
+name = "openfsa"
+version = "0.1.0"
+authors = ["Thomas Ruprecht <thomas.ruprecht@tu-dresden.de>"]
+
+[dependencies]
+libc = "0.1"
+num-traits = "0.1.36"
+integeriser = { git = "https://github.com/tud-fop/rust-integeriser.git" }
+log_domain = { git = "https://github.com/tud-fop/rust-log-domain.git" }
+serde = "1.0"
+openfsa-sys = { path = "openfsa-sys" }
+
+[workspace]

@@ -1,0 +1,11 @@
+[package]
+name = "openfsa-sys"
+version = "0.1.0"
+authors = ["Thomas Ruprecht <thomas.ruprecht@tu-dresden.de>"]
+
+[dependencies]
+libc = "0.1"
+serde = "1.0"
+
+[build-dependencies]
+cc = "1.0"
